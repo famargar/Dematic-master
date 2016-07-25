@@ -14,19 +14,19 @@ Pandas rolling functions syntax changed after version 0.18.0. Here I am
 using a older version.
 
 Known code limitations: 
--several parameters are now hardcoded. In a more evolved prototype, 
+1) several parameters are now hardcoded. In a more evolved prototype, 
  most parameters would be set through the webpage.
--the tester needs to kill both webserver.py and check_data_DB.py; one
+2) the tester needs to kill both webserver.py and check_data_DB.py; one
  could rather add start/stop buttons in the webpage
  
 Known scope limitations:
--the web page informs the operator, but does not do that clearly enough,
- and do not say what to do in case of errors. One could 
- 1) make plots interactive - for example using plotly or d3.js - so for 
- example can get the exact day/time the problem occurred, without 
- looking into the code (or the database)
- 2) make buttons that stay green if all OK, turn red if problem
- 3) make automatic e-mail/text message notifications to inform all 
+the web page informs the operator, but does not do that clearly enough,
+and do not say what to do in case of errors. One could 
+1) make plots interactive - for example using plotly or d3.js - so for 
+example can get the exact day/time the problem occurred, without 
+looking into the code (or the database)
+2) make buttons that stay green if all OK, turn red if problem
+3) make automatic e-mail/text message notifications to inform all 
  relevant parties
 
  
