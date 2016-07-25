@@ -10,7 +10,9 @@ How to execute:
 ./bin/startapplication.sh 
 
 starts the reading/analyzing script (check_data_DB.py) and the web 
-server (webserver.py). How to stop: in the current version the program 
+server (webserver.py). The web server is here: 
+http://localhost:8084/welcome
+How to stop: in the current version the program 
 runs an infinite loop.
 Both reading/analyzing script, and the web server need to be stopped.
 
