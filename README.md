@@ -5,9 +5,13 @@ produces plots and performs checks. A webserver shows the plots in a
 HTML page, that is automatically refreshed. Warning message appear in
 the webpage to report malfunctioning/need for intervention.
 
-How to execute: ./bin/startapplication.sh starts the reading/analyzing 
-script (check_data_DB.py) and the web server (webserver.py). 
-How to stop: in the current version the program runs an infinite loop.
+How to execute: 
+
+./bin/startapplication.sh 
+
+starts the reading/analyzing script (check_data_DB.py) and the web 
+server (webserver.py). How to stop: in the current version the program 
+runs an infinite loop.
 Both reading/analyzing script, and the web server need to be stopped.
 
 Pandas rolling functions syntax changed after version 0.18.0. Here I am 
